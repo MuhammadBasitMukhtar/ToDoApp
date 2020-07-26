@@ -1,0 +1,55 @@
+*
+{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.form  
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#task
+{
+    padding: 8px;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#sbm
+{
+    position: absolute;
+    padding: 8px;
+    margin-left: -67px;
+    border: 0.5px solid black;
+    font-weight: bold;
+}
+.list ul 
+{
+    list-style: none;
+    display: inline;
+}
+.list ul li
+{
+    padding: 5px;
+    padding-bottom: 10px;
+    width: 450px;
+    border-bottom: 0.5px solid gray;
+}
+.list span
+{
+    float: right;
+}
+.remove
+{
+    padding: 8px;
+    text-decoration: underline;
+}
